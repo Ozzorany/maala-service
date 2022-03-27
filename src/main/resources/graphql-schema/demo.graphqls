@@ -1,0 +1,7 @@
+extend type Query {
+    recentPosts(postId: ID!): Demo!
+}
+
+type Demo {
+    id: ID!
+}
